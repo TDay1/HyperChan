@@ -1,0 +1,326 @@
+body {
+    background-color: #36465D;
+    font-family: 'Roboto', sans-serif;
+}
+
+#post-section {
+    /*margin-left: 1%;*/
+}
+
+#buttonarea{
+  margin-left: 1%;
+}
+
+#post {
+    margin-top: 0px;
+    overflow: hidden;
+
+}
+
+p.comment {
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#postimage {
+    float: left;
+}
+
+h6 {
+    margin: 0;
+}
+
+img {
+    vertical-align: top;
+    margin: 7px 7px 7px 7px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+
+/*
+#postimage {
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 0px;
+  min-height: 0px;
+}
+
+added
+
+*/
+
+
+/*! CSS Used from: https://www.hyperschools.com/hypercss/4/hyper.css */
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    border-style: none;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+button {
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+button,
+html [type=button] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h4 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.hyper-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.hyper-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hyper-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+:disabled * {
+    pointer-events: none;
+}
+
+.hyper-container:after,
+.hyper-container:before,
+.hyper-row-padding:after,
+.hyper-row-padding:before,
+.hyper-clear:after,
+.hyper-clear:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hyper-half {
+    float: left;
+    width: 100%;
+}
+
+@media (min-width:601px) {
+    .hyper-half {
+        width: 49.99999%;
+    }
+}
+
+.hyper-circle {
+    border-radius: 50%;
+}
+
+.hyper-round {
+    border-radius: 4px;
+}
+
+.hyper-row-padding,
+.hyper-row-padding>.hyper-half {
+    padding: 0 8px;
+}
+
+.hyper-container {
+    padding: 0.01em 16px;
+}
+
+.hyper-card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.hyper-opacity {
+    opacity: 0.60;
+}
+
+.hyper-margin {
+    margin: 16px!important;
+}
+
+.hyper-margin-bottom {
+    margin-bottom: 16px!important;
+}
+
+.hyper-margin-right {
+    margin-right: 16px!important;
+}
+
+.hyper-left {
+    float: left!important;
+}
+
+.hyper-right {
+    float: right!important;
+}
+
+.hyper-button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+.hyper-white {
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+
+/*! CSS Used from: https://www.hyperschools.com/lib/hyper-theme-blue-grey.css */
+
+.hyper-theme-d1 {
+    color: #fff!important;
+    background-color: #57707d!important;
+}
+
+.hyper-theme-d2 {
+    color: #fff!important;
+    background-color: #4d636f!important;
+}
+
+
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css */
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-comment:before {
+    content: "\f075";
+}
+
+.fa-thumbs-up:before {
+    content: "\f164";
+}
+
+
+/*! CSS Used from: Embedded */
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0);
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot#iefix&v=4.7.0) format('embedded-opentype'), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*added 2.0*/
+
+
+/*! CSS Used from: https://www.hyperschools.com/hypercss/4/hyper.css */
+
+
+/*
+*,*:before,*:after{box-sizing:inherit;}
+button{font:inherit;margin:0;}
+button{overflow:visible;}
+button{text-transform:none;}
+button{-webkit-appearance:button;}
+button::-moz-focus-inner{border-style:none;padding:0;}
+button:-moz-focusring{outline:1px dotted ButtonText;}
+::-webkit-input-placeholder{color:inherit;opacity:0.54;}
+.hyper-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;}
+.hyper-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.hyper-button:disabled{cursor:not-allowed;opacity:0.3;}
+:disabled *{pointer-events:none;}
+.hyper-block{display:block;width:100%;}
+.hyper-button:hover{color:#000!important;background-color:#ccc!important;}
+/*! CSS Used from: https://www.hyperschools.com/lib/hyper-theme-blue-grey.css */
+
+
+/*
+.hyper-theme-l4{color:#000!important;background-color:#dfe5e8!important;}
+*/
+
+div.reply {
+    background-color: #B8B8BF;
+    border: 1px solid #B8B8BF;
+    border-radius: 3px;
+    display: table;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 8px 0;
+    /*overflow: hidden;*/
+    display: table
+    max-width: 500px;
+}
